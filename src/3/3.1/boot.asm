@@ -2,6 +2,7 @@ org 0x7c00
 
 BootStack equ 0x7c00
 
+
 BootStart:
 ; initialize segment registers and stack pointer register
     mov ax, cs
